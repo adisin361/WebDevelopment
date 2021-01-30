@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript String Function</title>
+</head>
+<body>
+    
+</body>
+</html>
+<body>
+    
+    <script>
+        var str="This is a string";
+        console.log(str);
+        var pos=str.indexOf('is');
+        //gives first occurance of the element
+        console.log(pos);
+
+        //index starts from 0
+        pos=str.lastIndexOf('is');
+        console.log(pos);
+
+        //gives substing from a string
+        //will print from 1 to 5
+        // var substr=str.slice(1,6); can take negative values
+        // console.log(substr);
+
+
+        //var substr=str.substring(1,7); cannot take negative values
+        //console.log(substr);
+
+        var substr1=str.substr(1,5);//start from 1 and take length as 5
+        console.log(substr1);
+
+        // var replaced=str.replace('string','adisin');
+        // console.log(str);
+        // console.log(replaced);
+
+        // console.log(str.toUpperCase());
+        // console.log(str.toLowerCase());
+
+        // var newString=str.concat('new string');
+        // console.log(newString);
+
+        // var strWithSpaces="    this    contains     white spaces  ";
+        // console.log(strWithSpaces);
+        // console.log(strWithSpaces.trim());removes spaces from front and back
+
+        // var char2=str.charAt(2);
+        // var char2=str.charCodeAt(2); gives the ascii value 
+        // console.log(char2);
+
+        console.log(str[2]);
+    </script>
+</body>
+</html>

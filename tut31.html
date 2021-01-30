@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on selectors</title>
+</head>
+<style>
+    h1 {
+        background-color: red;
+        color: black;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    /* div li p{
+
+    color: yellow;
+    font-weight: bold;
+    background-color: green;
+} */
+
+    /* if p is right insdie div */
+    div>p {
+
+        color: yellow;
+        font-weight: bold;
+        background-color: green;
+    }
+
+    /* if p is right after div */
+    div+p {
+        color: white;
+        background-color: rgb(233, 164, 164);
+    }
+</style>
+
+<body>
+    <h1>This is more on selectors </h1>
+    <div class="conatiner">
+        <div class="row">
+            <ul>
+                <li class="item">
+                    <p>this is another paragraph inside li</p>
+                </li>
+                <li>this wont be affected</li>
+                <p>this is a para inside ul</p>
+            </ul>
+        </div>
+        <p>This is another paragraph</p>
+    </div>
+    <p>this is outermost paragraph</p>
+
+</body>
+
+</html>
